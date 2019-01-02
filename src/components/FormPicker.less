@@ -1,0 +1,37 @@
+.c-picker {
+  display: flex;
+  height: 90px;
+  flex: 1 1 auto;
+  align-items: center;
+  margin-left: 15px;
+  width: e("calc(100vw - 250px)");
+  .picker {
+    width: 100%;
+  }
+
+  .label-wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    .placeholder {
+      color: #b2b2b2;
+      font-size: 34px;
+      display: flex;
+      flex: 1 1 auto;
+    }
+    .label {
+      .placeholder;
+      color: #4a90e2;
+    }
+    .icon {
+      display: flex;
+      flex: 0 0 auto;
+      width: 18px;
+      height: 18px;
+      border-left: 2px solid #4a90e2;
+      border-bottom: 2px solid #4a90e2;
+      transform: rotate(-45deg) translateY(-50%);
+    }
+  }
+}
